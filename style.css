@@ -1,0 +1,135 @@
+#header-section{
+    background-color:#FFFBF0;
+}
+
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #A4BC46 0%, #71ff13e0 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 20px;
+    cursor:progress;
+    margin-bottom: 2px;
+}
+
+.card-im{
+    border: none;
+    border-radius: 20px; 
+}
+
+.jacket-section{
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 7px; 
+    
+}
+
+.price{
+    color:#FABE4C;
+    font-size: 36px;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #363958;
+    font-weight: bold;
+    font-size: 70px;
+}  
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #363958;
+    font-weight: bold;
+    font-size: 48px; 
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    font-weight: bold;
+    font-size: 24px; 
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 16px; 
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+@media screen and (max-width : 768px) {	
+    .service-section {
+        text-align: center;
+    }
+    }
+    
+
+
+.contact {
+    position: relative;
+}
+.contact-single {
+    display: block;
+    z-index: 1;
+}
+.contact-single i {
+    color: #bcbcbc;
+    border: 1px solid #bcbcbc;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+
+    transition: .7s;
+}
+.contact-single:hover i {
+    color: #fd9736;
+    border: 1px solid #fd9736;
+}
+.contact-single .border{
+	color:#ccc;
+}
+
+.form-single {
+    max-width: 570px;
+}
+.form-row input {
+    border-radius: 0;
+    border: 1px solid #cdcdcd;
+}
+textarea.form-control {
+    border-radius: 0;
+}
+.form-single button {
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.footer-text p {
+    font-size: 13px;
+}
+.social-icons i {
+    background: gray;
+    width: 25px;
+    height: 25px;
+
+
+}
